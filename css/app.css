@@ -1,0 +1,175 @@
+body {
+    border: 0px;
+    background-color: #E2DFE0;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav ul {
+    list-style: none;
+    padding-top: 10px
+}
+.nav {
+    background: #79A94A;
+    min-height: 70px;
+}
+.nav .left {
+    float: left;
+    margin-left: 1em;
+}
+.nav .left li {
+    font-size: 14px;
+    float: left;
+}
+.nav .left li a {
+    display: block;
+    padding: 9px 15px;
+    line-height: 30px;
+}
+.nav .left li a:hover {
+    background: #f2f2f2;
+}
+.nav .right {
+    float: right;
+    margin-right: 1em;
+}
+.nav .right li {
+    font-size: 14px;
+    float: left;
+}
+.nav .right li a {
+    display: block;
+    padding: 9px 15px;
+    line-height: 30px;
+}
+.nav .right li a:hover {
+    background: #f2f2f2;
+}
+.toggle-nav {
+    display: none;
+}
+.nav-mobile style {
+    display: block;
+}
+@media only screen and (max-width: 640px) {
+    .nav {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .toggle-nav {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        line-height: 30px;
+    }
+    .toggle-nav:after {
+        content: ' Menu';
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .style-mobile {
+        background: #ffffff;
+        top: 51px;
+        position: absolute;
+        width: 100%;
+    }
+    .style-mobile li {
+        display: block;
+        width: 100%;
+    }
+    .nav .right {
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+    .nav .left {
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+}
+@media only screen and (min-width: 641px) {
+    .nav-mobile {
+        display: block !important;
+    }
+}
+#social-media-logo {
+    background-color: #413E44;
+    border-radius: 250%;
+    margin-left: 50px;
+}
+
+/********************************************************
+                        HERO
+********************************************************/
+
+.hero {
+    background-color: white;
+    height: 400px;
+}
+
+/********************************************************
+                        ABOUT
+********************************************************/
+
+.about {
+    background: #79A94A;
+}
+.about hr {
+    background-color: white;
+    border-color: white;
+    border-width: medium
+}
+.about #hr-pad-left {
+    margin-left: -40px
+}
+.about h3 {
+    padding-top: 50px;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.card {
+    background: #fefefe;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    margin-bottom: 70px
+}
+.card-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.card-image {
+    width: 100%;
+}
+.card-content {
+    padding: 8px 16px 16px;
+}
+
+/********************************************************
+                        WHATS NEW
+********************************************************/
+
+.whats-new {
+    background-color: #C5DF96;
+    margin-bottom: 100px;
+}
+.whats-new #pad-top {
+    padding-top: 50px;
+}
+.whats-new h3,
+p,
+h5 {
+    color: #79A94A;
+}
+.whats-new .left {
+    border-right: solid #79A94A 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 220px
+}
