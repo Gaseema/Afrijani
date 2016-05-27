@@ -24,6 +24,13 @@ body {
     display: block;
     line-height: 30px;
 }
+.nav .left li a:hover {
+    color: black;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
 .nav .right {
     float: right;
     margin-right: 1em;
@@ -43,6 +50,24 @@ body {
 .nav-mobile style {
     display: block;
 }
+@media only screen and (max-width: 1250px) {
+    #right-block {
+        display: none;
+    }
+    #triangle-top-right {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1245px) {
+    .nav-mobile #search-hide {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .nav-mobile #social-media-logo {
+        display: none;
+    }
+}
 @media only screen and (max-width: 640px) {
     .nav {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -59,9 +84,17 @@ body {
     }
     .nav-mobile {
         display: none;
+        z-index: 99;
+        text-align: center;
+    }
+    .nav-mobile #social-media-logo {
+        display: none;
+    }
+    .nav-mobile #search-hide {
+        display: none;
     }
     .style-mobile {
-        background: #ffffff;
+        background: #6ea23b;
         top: 51px;
         position: absolute;
         width: 100%;
@@ -105,7 +138,7 @@ body {
     transition: .5s;
 }
 #social-media-logo:hover {
-    color: green;
+    color: #65d065;
 }
 #search {}
 #search input[type="text"] {
@@ -223,3 +256,22 @@ h5 {
 /********************************************************
                         WHATS NEW
 ********************************************************/
+
+#right-block {
+    width: 90px;
+    height: 170px;
+    background-color: #103252;
+    float: right;
+    margin-right: -216px;
+    color: white;
+    font-weight: bold;
+    line-height: 2;
+}
+#triangle-top-right {
+    width: 0;
+    height: 0;
+    border-top: 170px solid #103252;
+    border-left: 170px solid transparent;
+    float: right;
+    margin-right: -126px
+}
