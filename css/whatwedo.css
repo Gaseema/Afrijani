@@ -276,7 +276,7 @@ h5 {
     width: 0;
     height: 0;
     border-top: 170px solid #103252;
-    border-left: 170px solid transparent;
+    border-left: 140px solid transparent;
     float: right;
     margin-right: -126px
 }
