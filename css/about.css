@@ -172,13 +172,16 @@ body {
     background-color: white;
 }
 .hero img {
-    height: 300px
+    height: 300px;
+    margin-top: 70px
 }
 .hero p {
     margin-bottom: 50px;
     margin-left: 80px;
     margin-right: 80px;
     color: black;
+    margin-bottom: 150px;
+    font-size: 1.5em;
 }
 
 /********************************************************
@@ -232,9 +235,13 @@ button:hover {
 ********************************************************/
 
 .whats-new {
-    background-color: #C5DF96;
+    background-image: url(../img/Tea.png);
+    background-size: cover;
     margin-bottom: 100px;
+    height: 50%
 }
+
+/*
 .whats-new #pad-top {
     padding-top: 50px;
 }
@@ -252,9 +259,11 @@ h5 {
 #img-size {
     height: 200px;
 }
+*/
+
 
 /********************************************************
-                        WHATS NEW
+                     Trapizoid nav
 ********************************************************/
 
 #right-block {
