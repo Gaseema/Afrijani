@@ -23,6 +23,8 @@ body {
     float: left;
     display: block;
     line-height: 30px;
+    font-size: 1.4em;
+    padding-left: 30px;
 }
 .nav .left li a:hover {
     color: black;
@@ -172,14 +174,17 @@ body {
     background-color: white;
 }
 .hero img {
-    height: 300px
+    height: 300px;
+    margin-top: 50px;
 }
 .hero p {
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     margin-left: 80px;
     margin-right: 80px;
     color: black;
-    margin-top: 350px
+    margin-top: 350px;
+    font-size: 1.5em;
+    color: #6a6b70
 }
 #pack-pad {
     position: absolute;
@@ -243,16 +248,18 @@ button:hover {
 .whats-new #pad-top {
     padding-top: 50px;
 }
+.whats-new h5 {
+    font-size: 1.6em;
+}
 .whats-new h3,
 p,
 h5 {
     color: #79A94A;
 }
 .whats-new .left {
-    border-right: solid #79A94A 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 310px
+    background-image: url(../img/Tea2.png);
+    height: 420px;
+    background-size: cover;
 }
 #img-size {
     height: 200px;
